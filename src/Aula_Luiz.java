@@ -48,7 +48,6 @@ public class Aula_Luiz {
             else if (tipo != 3){
                 System.out.println("Opção inválida");
             }
-
         }while(tipo != 3);
 
 
