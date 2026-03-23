@@ -31,6 +31,7 @@ public class Aula_Luiz {
 
             if(tipo == 1){
                 System.out.println("Enviando mensagem:");
+                System.out.println("Sinal de controle: WRITE (escrita)");
                 System.out.println("Dados estão sendo enviados para a memória pelo barramento de dados");
                 System.out.println("Destino: " + destino);
                 System.out.println("CPU irá mostrar os resultados na tela:");
@@ -38,6 +39,7 @@ public class Aula_Luiz {
             }
             else if(tipo == 2){
                 System.out.println("Lendo mensagem...");
+                System.out.println("Sinal de controle: READ (leitura)");
                 System.out.println("Dados sendo recuperados da memória....");
                 System.out.println("Origem: " + destino);
                 System.out.println("CPU irá mostrar os resultados na tela:");
